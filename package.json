@@ -1,0 +1,45 @@
+{
+  "name": "not-mercury",
+  "version": "1.0.0",
+  "description": "All of the infinite brilliance of Raynos' Mercury framework, without \"mercury\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && tape test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisinajar/not-mercury.git"
+  },
+  "keywords": [
+    "mercury",
+    "virtual-dom",
+    "raynos",
+    "react"
+  ],
+  "author": "Chris Vickery <chrisinajar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisinajar/not-mercury/issues"
+  },
+  "homepage": "https://github.com/chrisinajar/not-mercury#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "length-stream": "^0.1.1",
+    "semistandard": "^7.0.5",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "dom-delegator": "^13.1.0",
+    "dover": "^1.2.0",
+    "main-loop": "^3.2.0",
+    "observ": "^0.2.0",
+    "observ-array": "^3.2.1",
+    "observ-struct": "^6.0.0",
+    "observ-varhash": "^1.0.8",
+    "sour": "^2.2.3",
+    "value-event": "^5.1.0",
+    "vdom-thunk": "^3.0.0",
+    "virtual-dom": "^2.1.1"
+  }
+}
