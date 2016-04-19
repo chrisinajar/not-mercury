@@ -1,6 +1,6 @@
 {
   "name": "not-mercury",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "All of the infinite brilliance of Raynos' Mercury framework, without \"mercury\".",
   "main": "index.js",
   "scripts": {
