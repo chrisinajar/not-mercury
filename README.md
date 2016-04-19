@@ -1,24 +1,24 @@
-# Not Mercury [![Build Status](https://travis-ci.org/chrisinajar/not-mercury.svg?branch=master)](https://travis-ci.org/chrisinajar/not-mercury)
+# Not Mercury [![Build Status](https://travis-ci.org/chrisinajar/not-mercurial.svg?branch=master)](https://travis-ci.org/chrisinajar/not-mercurial)
 #### All of the infinite brilliance of Raynos' Mercury framework, without "mercury".
 
-`not-mercury` is basically just [mercury](https://www.npmjs.com/package/mercury) but without mercury. If you've ever read the source code for mercury (which you should, it's very short) you can see that it is basically a collection of independant modules and some glue code.
+`nhg` is basically just [mercury](https://www.npmjs.com/package/mercury) but without mercury. If you've ever read the source code for mercury (which you should, it's very short) you can see that it is basically a collection of independant modules and some glue code.
 
 This repository breaks out those modules into their own files for `browserify` efficiency and uses the modularized versions of the glue code (largely thanks to [Ben Drucker](https://www.npmjs.com/~bendrucker)). *This repository contains no actual code, this is just for npm convenience*.
 
 ## Installation
 
-`npm install not-mercury`
+`npm install nhg`
 
 ## Usage
 
 ```js
 'use strict';
  
-var document = require('not-mercury/document');
-var h = require('not-mercury/h');
-var State = require('not-mercury/state');
-var Value = require('not-mercury/value');
-var Send = require('not-mercury/send');
+var document = require('nhg/document');
+var h = require('nhg/h');
+var State = require('nhg/state');
+var Value = require('nhg/value');
+var Send = require('nhg/send');
  
 function App() {
     return State({
