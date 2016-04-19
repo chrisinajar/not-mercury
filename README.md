@@ -21,8 +21,8 @@ var Value = require('not-mercury/value');
 var Send = require('not-mercury/send');
  
 function App() {
-    return hg.state({
-        value: hg.value(0),
+    return State({
+        value: Value(0),
         channels: {
             clicks: incrementCounter
         }
@@ -39,7 +39,7 @@ App.render = function render(state) {
         ' has value: ' + state.value + '.', h('input.button', {
             type: 'button',
             value: 'Click me!',
-            'ev-click': hg.send(state.channels.clicks)
+            'ev-click': Send(state.channels.clicks)
         })
     ]);
 };
