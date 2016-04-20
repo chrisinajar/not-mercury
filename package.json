@@ -34,6 +34,7 @@
     "dover": "^1.2.0",
     "global": "^4.3.0",
     "main-loop": "^3.2.0",
+    "main-loop-app": "^0.1.0",
     "observ": "^0.2.0",
     "observ-array": "^3.2.1",
     "observ-struct": "^6.0.0",

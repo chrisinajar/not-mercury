@@ -19,6 +19,7 @@ var h = require('nhg/h');
 var State = require('nhg/state');
 var Value = require('nhg/value');
 var Send = require('nhg/send');
+var RunApp = require('nhg/app');
  
 function App() {
     return State({
@@ -43,6 +44,8 @@ App.render = function render(state) {
         })
     ]);
 };
+
+RunApp(document.body, App(), App.render);
 ```
 
 ## Contributing
