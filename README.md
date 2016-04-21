@@ -1,4 +1,4 @@
-# Not Mercury [![Build Status](https://travis-ci.org/chrisinajar/not-mercury.svg?branch=master)](https://travis-ci.org/chrisinajar/not-mercury)
+# Not Mercury [![Build Status](https://travis-ci.org/chrisinajar/not-mercury.svg?branch=master)](https://travis-ci.org/chrisinajar/not-mercury) [![Dependency Status](https://david-dm.org/chrisinajar/not-mercury.svg)](https://david-dm.org/chrisinajar/not-mercury) [![devDependency Status](https://david-dm.org/chrisinajar/not-mercury/dev-status.svg)](https://david-dm.org/chrisinajar/not-mercury#info=devDependencies)
 #### All of the infinite brilliance of Raynos' Mercury framework, without "mercury".
 
 `nhg` is basically just [mercury](https://www.npmjs.com/package/mercury) but without mercury. If you've ever read the source code for mercury (which you should, it's very short) you can see that it is basically a collection of independant modules and some glue code.
