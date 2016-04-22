@@ -3,6 +3,10 @@
   "version": "0.3.0",
   "description": "All of the infinite brilliance of Raynos' Mercury framework, without mercury.",
   "main": "index.js",
+  "engines": {
+    "npm": ">=3.0.0",
+    "node": ">=0.12.0"
+  },
   "scripts": {
     "test": "semistandard && tape test.js | tap-spec"
   },
