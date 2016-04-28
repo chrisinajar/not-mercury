@@ -13,14 +13,14 @@ This repository breaks out those modules into their own files for `browserify` e
 
 ```js
 'use strict';
- 
+
 var document = require('nhg/document');
 var h = require('nhg/h');
 var State = require('nhg/state');
 var Value = require('nhg/value');
 var Send = require('nhg/send');
 var RunApp = require('nhg/app');
- 
+
 function App() {
     return State({
         value: Value(0),
@@ -29,11 +29,11 @@ function App() {
         }
     });
 }
- 
+
 function incrementCounter(state) {
     state.value.set(state.value() + 1);
 }
- 
+
 App.render = function render(state) {
     return h('div.counter', [
         'The state ', h('code', 'clickCount'),
@@ -82,7 +82,7 @@ Module: [virtual-dom/h](https://npmjs.com/package/virtual-dom)
 #### `nhg/main`
 Module: [main-loop](https://npmjs.com/package/main-loop)
 
-#### `nhg/partial`
+#### `nhg/thunk`
 Module: [vdom-thunk](https://npmjs.com/package/vdom-thunk)
 
 #### `nhg/patch`
