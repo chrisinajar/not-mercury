@@ -43,7 +43,7 @@
     "observ-array": "3.2.1",
     "observ-struct": "6.0.0",
     "observ-varhash": "1.0.8",
-    "sour": "3.1.2",
+    "sour": "3.2.0",
     "value-event": "5.1.1",
     "vdom-thunk": "3.0.0",
     "virtual-dom": "2.1.1"
