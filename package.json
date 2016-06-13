@@ -1,6 +1,6 @@
 {
   "name": "nhg",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "All of the infinite brilliance of Raynos' Mercury framework, without mercury.",
   "main": "index.js",
   "engines": {
