@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/chrisinajar/not-mercury#readme",
   "devDependencies": {
-    "browserify": "^13.0.0",
+    "browserify": "^14.2.0",
     "length-stream": "^0.1.1",
     "semistandard": "^9.2.1",
     "tap-spec": "^4.1.1",
